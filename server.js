@@ -10,6 +10,8 @@ var bodyParser = require('body-parser');
 var mongoose   = require('mongoose');	
 var Bear       = require('./app/models/bear');
 
+
+
 // DATABASE CONNECTION
 mongoose.connect('mongodb://localhost/api'); // connect to our database
 
